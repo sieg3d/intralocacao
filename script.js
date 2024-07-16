@@ -991,7 +991,6 @@ const todasButton = document.getElementById('todas');
 // Lista filtrada de franqueados (inicialmente contém todos os franqueados)
 let filteredFranqueados = franqueados;
 
-
 // Função para preencher a lista de franqueados no elemento HTML
 function populateList(franqueadosToDisplay) {
     franqueadoList.innerHTML = '';
@@ -1023,15 +1022,27 @@ function searchFranqueados() {
 function filterByState(state) {
     filteredFranqueados = franqueados.filter(franqueado => franqueado.estado === state);
     searchFranqueados();
+    highlightButton(state);
 }
-
 
 // Função para remover o filtro de estado
 function clearFilter() {
     filteredFranqueados = franqueados;
     searchFranqueados();
+    highlightButton('TODAS');
 }
 
+// Função para destacar o botão selecionado
+function highlightButton(state) {
+    const buttons = document.querySelectorAll('.filter-buttons button');
+    buttons.forEach(button => {
+        if (button.id === 'filter' + state || (button.id === 'todas' && state === 'TODAS')) {
+            button.classList.add('active');
+        } else {
+            button.classList.remove('active');
+        }
+    });
+}
 
 // Função para mostrar os detalhes do franqueado selecionado
 function showFranqueadoDetails(codigo) {
@@ -1042,8 +1053,8 @@ function showFranqueadoDetails(codigo) {
             <p><strong>CPF/CNPJ:</strong> ${franqueado.cpf}</p>
             <p><strong>Cidade:</strong> ${franqueado.cidade}</p>
             <p><strong>Estado:</strong> ${franqueado.estado}</p>
-             <p><strong>Informações:</strong> ${franqueado.info}</p>
-        `
+            <p><strong>Informações:</strong> ${franqueado.info}</p>
+        `;
     }
 }
 

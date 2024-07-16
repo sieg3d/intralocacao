@@ -1,29 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt">
-
 <head>
     <meta charset="UTF-8">
     <title>Página Inicial</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <div class="navbar">
         <img src="logo.png" alt="Logo" class="logo">
     </div>
     <div class="container">
-        <div>
+        <div class="left-panel">
             <div class="filter-buttons">
-                <button id="todas">TODAS</button>
-                <button id="filterRJ">RJ</button>
-                <button id="filterSP">SP</button>
-                <button id="filterMG">MG</button>
+                <button id="todas" class="filter-btn selected">TODAS</button>
+                <button id="filterRJ" class="filter-btn">RJ</button>
+                <button id="filterSP" class="filter-btn">SP</button>
+                <button id="filterMG" class="filter-btn">MG</button>
             </div>
             <div class="search-bar">
                 <input type="text" id="searchInput" placeholder="Buscar por Franqueado ou CPF/CNPJ">
             </div>
-            <select id="franqueadoList" class="select-list" size="10">
-            </select>
+            <select id="franqueadoList" class="select-list" size="10"></select>
         </div>
         <div id="infoPanel" class="info-panel">
             <!-- Informações detalhadas serão exibidas aqui -->
@@ -31,5 +28,4 @@
     </div>
     <script src="script.js"></script>
 </body>
-
 </html>

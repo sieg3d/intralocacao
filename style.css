@@ -43,6 +43,10 @@ body {
     background-color: #0056b3;
 }
 
+.filter-buttons .active {
+    background-color: #28a745;
+}
+
 .search-bar {
     margin-bottom: 20px;
     display: flex;

@@ -23,10 +23,10 @@ const franquias = [
         <br>✅Plano Mensal - R$251,30 SEMANAL (diária 35,90)
         <br>✅Plano Anual - R$ 237,30 SEMANAL (diária 33,90)
         <br>✅Plano Fidelidade 24 MESES-R$300,30 SEMANAL (diária 42,90)
-        <br>✳️CAUÇÃO R$400,00 POR 150
-        <br>✳️Locação sem burocracias e com preço justo ⚖️
-        <br>✳️Todos os veículos São do ano 2023/23 0 km
-        <br>✳️PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO`
+        <br>✳️️CAUÇÃO R$400,00 POR 150
+        <br>✳️️Locação sem burocracias e com preço justo ⚖️
+        <br>✳️️Todos os veículos São do ano 2023/23 0 km
+        <br>✳️️PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO`
     },
 
     {
@@ -40,8 +40,8 @@ const franquias = [
         <br>✅Plano Anual -  R$384,30 SEMANAL (diária 54,90)
         <br>✅Plano Fidelidade -24 meses  R$454,30 SEMANAL (diária 64,90)
         <br>✅CAUÇÃO -R$500,00
-        <br>✳️PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO
-        <br>✳️Locação sem burocracias e com preço justo ⚖️`
+        <br>✳️️PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO
+        <br>✳️️Locação sem burocracias e com preço justo ⚖️`
     },
 
     {
@@ -55,7 +55,7 @@ const franquias = [
         <br>✅Anual - R$ 216,30 Semanal (diária 30,90)
         <br>✅Plano Fidelidade - (24 meses) R$ 279,30 Semanal (diária 39,90)
         <br>✅ CAUÇÃO=500,00
-        <br>✳️PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO`
+        <br>✳️️PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO`
     },
 
     {
@@ -68,8 +68,8 @@ const franquias = [
         <br>✅Plano Mensal - R$230,30 SEMANAL (diária 32,90)
         <br>✅Plano Anual - R$ 209,30 SEMANAL (diária 29,90)
         <br>✅Plano Fidelidade 24 MESES-R$293,30 SEMANAL (diária 41,90)
-        <br>✳️CAUÇÃO R$500,00
-        <br>✳️PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO`
+        <br>✳️️CAUÇÃO R$500,00
+        <br>✳️️PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO`
     },
 
     {
@@ -80,11 +80,11 @@ const franquias = [
         estado: "MG",
         info: `
         <br>✅SEMESTRAL - R$ 244,30 a semana  (diária 34,90)
-        <br>✳️Manutencão preventiva e do dia a dia por nossa conta (exceto mau uso e quebra, batida, multa, gasolina, lâmpadas e troca de pneu)
+        <br>✳️️Manutencão preventiva e do dia a dia por nossa conta (exceto mau uso e quebra, batida, multa, gasolina, lâmpadas e troca de pneu)
         <br>✅ANUAL - R$ 244,30 a semana  (diária 34,90)
-        <br>✳️Manutencão preventiva e do dia a dia por nossa conta (exceto mau uso e quebra, batida, multa, gasolina, lâmpadas e troca de pneu)
+        <br>✳️️Manutencão preventiva e do dia a dia por nossa conta (exceto mau uso e quebra, batida, multa, gasolina, lâmpadas e troca de pneu)
         <br>✅Plano FIDELIDADE (Onde a Moto é sua no final de 28 meses)- R$ 384,30 a semana (diária 54,90)
-        <br>✳️Manutencão preventiva e do dia a dia por nossa conta (exceto mau uso e quebra, batida, multa, gasolina, lâmpada e troca de pneu)
+        <br>✳️️Manutencão preventiva e do dia a dia por nossa conta (exceto mau uso e quebra, batida, multa, gasolina, lâmpada e troca de pneu)
         <br>✅Caução = R$ 600,00`
     },
 
@@ -129,7 +129,7 @@ const franquias = [
         <br>✅Plano Fidelidade -24 meses RODADA  R$419,30 SEMANAL (diária 59,90)
         <br>✅Plano Fidelidade -24 meses 0 KM  R$468,30 SEMANAL (diária 66,90)
         <br>✅CAUÇÃO -R$800,00
-        <br>✳️Locação sem burocracias e com preço justo ⚖️`
+        <br>✳️️Locação sem burocracias e com preço justo ⚖️`
     },
 
     {
@@ -171,7 +171,7 @@ const franquias = [
         <br>✅Plano Anual - R$ 237,3 SEMANAL(diária 33,90)
         <br>✅Plano Fidelidade 24 MESES - R$ 342,3SEMANAL (48,90 diária)
         <br>CAUÇÃO R$600,00 (Pode ser divido em 2x nas Semanas)
-        <br>✳️PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO`
+        <br>✳️️PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO`
     },
 
     {
@@ -193,6 +193,25 @@ const franquias = [
         <br>*Pagamentos no cartão, com juros da bandeira.
 
         <br>Promoção valida até 20 de julho ou enquanto durar o estoque (6 motos)`
+    },
+
+    {
+        codigo: 14,
+        modelo: "Honda CG 160 Start",
+        gerenciavel: false,
+        cidade: "Belo Horizonte (WILLIAM)",
+        estado: "MG",
+        info: `
+        <br>✅Plano FIDELIDADE (Onde a Moto é sua no final de 28 meses)- R$419,30 a semana (diária 59,90) 
+        <br>✳️Manutencão preventiva e do dia a dia por nossa conta (exceto mau uso e quebra, batida, multa, gasolina, lâmpada)
+        <br>✅ ANUAL - R$ 279,30 a semana  (diária 39,90) 
+        <br>✳️Manutencão preventiva e do dia a dia por nossa conta (exceto mau uso e quebra, batida, multa, gasolina, lâmpada)
+        <br>✅Caução = R$ 700,00
+        <br>✳️Locação sem burocracias e com preço justo ⚖
+        <br>✳️IPVA por nossa conta
+        <br>✳️Seguro por nossa conta
+        <br>Quilometragem máxima mês 6000km.
+        <br>✳️PAGAMENTOS SEMANAIS`
     },
 ];
 

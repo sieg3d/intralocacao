@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <img src="logo.png" alt="Logo" class="logo">
+    </div>
+    <div class="container">
+        <div class="left-panel">
+            <div class="filter-buttons">
+                <button id="todas" class="filter-btn selected">TODAS</button>
+                <button id="filterRJ" class="filter-btn">RJ</button>
+                <button id="filterSP" class="filter-btn">SP</button>
+                <button id="filterMG" class="filter-btn">MG</button>
+            </div>
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Buscar Franquia por Cidade">
+            </div>
+            <select id="franquiaList" class="select-list" size="10"></select>
+        </div>
+        <div id="infoPanel" class="info-panel">
+            <!-- Informações detalhadas serão exibidas aqui -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

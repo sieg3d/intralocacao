@@ -90,7 +90,7 @@ const franquias = [
 
     {
         codigo: 7,
-        modelo: "DK 150cc",
+        modelo: "SUZUKI DK 150",
         gerenciavel: false,
         cidade: "Poços de Caldas",
         estado: "MG",
@@ -99,6 +99,51 @@ const franquias = [
         <br>✅Anual - R$ 279,30 Semanal (diária 39,90)
         <br>✅Plano Fidelidade - R$ 398,30(diária 56,90)
         <br>CAUÇÃO = 700,00`
+    },
+
+    {
+        codigo: 8,
+        modelo: "SUZUKI DK 150",
+        gerenciavel: false,
+        cidade: "Montes Claros",
+        estado: "MG",
+        info: `
+        <br>Planos de locação (FELIPE/SARA)
+        <br>PLANO SUZUKI DK 150🏍️
+        <br>✅Plano Mensal - R$251,30 SEMANAL (diária 35,90) VALOR PROMOCIONAL
+        <br>✅Plano Anual - R$ 251,30 SEMANAL (diária 35,90) VALOR PROMOCIONAL
+        <br>✅Plano Fidelidade 28 MESES - R$349,30 SEMANAL (diária 49,90)
+        <br>CAUÇÃO R$500,00.`
+    },
+
+    {
+        codigo: 9,
+        modelo: "SHI 175",
+        gerenciavel: false,
+        cidade: "Santa Luzia",
+        estado: "MG",
+        info: `
+        <br>✅Trimestral 03 MESES-  R$ 391,30 SEMANAL (DIÁRIA 55,90)
+        <br>✅Semestral- 370,30 SEMANAL ( DIÁRIA 52,90)
+        <br>✅Plano Anual -  R$363,30 SEMANAL (diária 51,90)
+        <br>✅Plano Fidelidade -24 meses RODADA  R$419,30 SEMANAL (diária 59,90)
+        <br>✅Plano Fidelidade -24 meses 0 KM  R$468,30 SEMANAL (diária 66,90)
+        <br>✅CAUÇÃO -R$800,00
+        <br>✳️Locação sem burocracias e com preço justo ⚖️`
+    },
+
+    {
+        codigo: 10,
+        modelo: "SUZUKI DK 150",
+        gerenciavel: false,
+        cidade: "Belo Horizonte (BRAULIO)",
+        estado: "MG",
+        info: `
+        <br>✅Plano Mensal - R$272,30 Semanal (diária 38,90)
+        <br>✅Plano Anual - R$ 251,30 Semanal (diária 35,90)
+        <br>✅Plano Fidelidade - (24 meses) R$ 349,30 Semanal (diária 49,90)
+        <br>✅ CAUÇÃO=700,00
+        <br>PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO`
     },
 ];
 

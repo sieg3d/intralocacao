@@ -71,7 +71,39 @@ const franquias = [
         <br>✳️CAUÇÃO R$500,00
         <br>✳️PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO`
     },
+
+    {
+        codigo: 6,
+        modelo: "HONDA CG 160 START",
+        gerenciavel: false,
+        cidade: "Belo Horizonte - Bernardo",
+        estado: "MG",
+        info: `
+        <br>✅SEMESTRAL - R$ 244,30 a semana  (diária 34,90)
+        <br>✳️Manutencão preventiva e do dia a dia por nossa conta (exceto mau uso e quebra, batida, multa, gasolina, lâmpadas e troca de pneu)
+        <br>✅ANUAL - R$ 244,30 a semana  (diária 34,90)
+        <br>✳️Manutencão preventiva e do dia a dia por nossa conta (exceto mau uso e quebra, batida, multa, gasolina, lâmpadas e troca de pneu)
+        <br>✅Plano FIDELIDADE (Onde a Moto é sua no final de 28 meses)- R$ 384,30 a semana (diária 54,90)
+        <br>✳️Manutencão preventiva e do dia a dia por nossa conta (exceto mau uso e quebra, batida, multa, gasolina, lâmpada e troca de pneu)
+        <br>✅Caução = R$ 600,00`
+    },
+
+    {
+        codigo: 7,
+        modelo: "DK 150cc",
+        gerenciavel: false,
+        cidade: "Poços de Caldas",
+        estado: "MG",
+        info: `
+        <br>✅Mensal - R$ 300,30 Semanal (diária 42,90)
+        <br>✅Anual - R$ 279,30 Semanal (diária 39,90)
+        <br>✅Plano Fidelidade - R$ 398,30(diária 56,90)
+        <br>CAUÇÃO = 700,00`
+    },
 ];
+
+// Ordenar as franquias por cidade
+franquias.sort((a, b) => a.cidade.localeCompare(b.cidade));
 
 // Elementos do DOM
 const listaFranquias = document.getElementById('listaFranquias');
@@ -87,7 +119,7 @@ let filtroGerenciavel = 'gerenciavelTodas';
 
 // Função para preencher a lista de franquias no elemento HTML
 function preencherLista(franquiasParaExibir) {
-    listaFranquias.innerHTML = '';
+    listaFranquias.innerHTML = ''; // Limpa o conteúdo anterior
     franquiasParaExibir.forEach(franquia => {
         const option = document.createElement('option');
         option.value = franquia.codigo;
@@ -132,7 +164,7 @@ function aplicarFiltros() {
 function filtrarPorEstado(estado) {
     filtroEstado = estado;
     aplicarFiltros();
-    destacarBotao(botoesFiltroEstado, `filtro${ estado }`);
+    destacarBotao(botoesFiltroEstado, `filtro${estado}`);
 }
 
 // Função para filtrar franquias por gerenciabilidade
@@ -165,9 +197,8 @@ function mostrarDetalhesFranquia(codigo) {
     const franquia = franquias.find(f => f.codigo == codigo);
     if (franquia) {
         painelInformacoes.innerHTML = `
-    <h2> ${ franquia.cidade }</h2>
-            <h3>${franquia.modelo}</h3>
-            <p><strong>Cidade:</strong> ${franquia.cidade}</p>
+            <h2>${franquia.cidade}</h2>
+            <p><strong>${franquia.modelo}</strong></p>
             <p><strong>Estado:</strong> ${franquia.estado}</p>
             <p><strong>Informações:</strong> ${franquia.info}</p>
         `;
@@ -194,5 +225,5 @@ botoesFiltroGerenciavel.forEach(botao => {
     });
 });
 
-// Popula a lista inicial de franquias
+// Exibe a lista inicial de franquias
 preencherLista(franquias);

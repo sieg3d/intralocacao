@@ -76,7 +76,7 @@ const franquias = [
         codigo: 6,
         modelo: "HONDA CG 160 START",
         gerenciavel: false,
-        cidade: "Belo Horizonte - Bernardo",
+        cidade: "Belo Horizonte (BERNARDO)",
         estado: "MG",
         info: `
         <br>✅SEMESTRAL - R$ 244,30 a semana  (diária 34,90)
@@ -144,6 +144,55 @@ const franquias = [
         <br>✅Plano Fidelidade - (24 meses) R$ 349,30 Semanal (diária 49,90)
         <br>✅ CAUÇÃO=700,00
         <br>PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO`
+    },
+
+    {
+        codigo: 11,
+        modelo: "SUZUKI DK 150",
+        gerenciavel: false,
+        cidade: "Belo Horizonte (CARLOS)",
+        estado: "MG",
+        info: `
+        <br>✅Plano Mensal - R$302,30 SEMANAL (diária 41,90)
+        <br>✅Plano Anual - R$ 272,30 SEMANAL(diária 38,90)
+        <br>✅Plano Fidelidade 28 MESES 363,30 - SEMANAL  (diária 51,90)
+        <br>CAUÇÃO R$700,00
+        <br>CAUÇÃO FIDELIDADE R$600,00`
+    },
+
+    {
+        codigo: 12,
+        modelo: "CHOPPER 150",
+        gerenciavel: false,
+        cidade: "Coronel Fabriciano",
+        estado: "MG",
+        info: `
+        <br>✅Plano Mensal - R$ 272,3 SEMANAL (diária 38,90)
+        <br>✅Plano Anual - R$ 237,3 SEMANAL(diária 33,90)
+        <br>✅Plano Fidelidade 24 MESES - R$ 342,3SEMANAL (48,90 diária)
+        <br>CAUÇÃO R$600,00 (Pode ser divido em 2x nas Semanas)
+        <br>✳️PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO`
+    },
+
+    {
+        codigo: 13,
+        modelo: "SUZUKI DK 150",
+        gerenciavel: false,
+        cidade: "Sete Lagoas (MARCOS OLIVEIRA)",
+        estado: "MG",
+        info: `
+        <br>- Plano semestral
+        <br>Diária de 52,90 (370,30 por semana) - Caução R$700  podendo ser paga em até 12 parcelas no cartão;  
+
+        <br>- Plano anual
+        <br>Diária de 48,90 (342,30 por semana) - Caução R$600  podendo ser paga em até 12 parcelas no cartão;
+
+        <br>- Plano Fidelidade
+        <br>Diária de 59,90 (419,30 por semana) - Caução de R$500  podendo ser paga em até 12 parcelas no cartão.
+
+        <br>*Pagamentos no cartão, com juros da bandeira.
+
+        <br>Promoção valida até 20 de julho ou enquanto durar o estoque (6 motos)`
     },
 ];
 

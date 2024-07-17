@@ -57,6 +57,20 @@ const franquias = [
         <br>✅ CAUÇÃO=500,00
         <br>✳️PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO`
     },
+
+    {
+        codigo: 5,
+        modelo: "WORKER 125",
+        gerenciavel: false,
+        cidade: "Lagoa Santa / Venda Nova / Belo Horizonte (Caiçara)",
+        estado: "MG",
+        info: `
+        <br>✅Plano Mensal - R$230,30 SEMANAL (diária 32,90)
+        <br>✅Plano Anual - R$ 209,30 SEMANAL (diária 29,90)
+        <br>✅Plano Fidelidade 24 MESES-R$293,30 SEMANAL (diária 41,90)
+        <br>CAUÇÃO R$500,00
+        <br>✳️PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO`
+    },
 ];
 
 // Elementos do DOM

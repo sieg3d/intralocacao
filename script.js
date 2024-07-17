@@ -23,9 +23,9 @@ const franquias = [
         <br>✅Plano Mensal - R$251,30 SEMANAL (diária 35,90)
         <br>✅Plano Anual - R$ 237,30 SEMANAL (diária 33,90)
         <br>✅Plano Fidelidade 24 MESES-R$300,30 SEMANAL (diária 42,90)
-        <br>CAUÇÃO R$400,00 POR 150
+        <br>✳️CAUÇÃO R$400,00 POR 150
         <br>✳️Locação sem burocracias e com preço justo ⚖️
-        <br>Todos os veículos São do ano 2023/23 0 km
+        <br>✳️Todos os veículos São do ano 2023/23 0 km
         <br>✳️PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO`
     },
 
@@ -40,7 +40,7 @@ const franquias = [
         <br>✅Plano Anual -  R$384,30 SEMANAL (diária 54,90)
         <br>✅Plano Fidelidade -24 meses  R$454,30 SEMANAL (diária 64,90)
         <br>✅CAUÇÃO -R$500,00
-        <br>PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO
+        <br>✳️PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO
         <br>✳️Locação sem burocracias e com preço justo ⚖️`
     },
 
@@ -68,7 +68,7 @@ const franquias = [
         <br>✅Plano Mensal - R$230,30 SEMANAL (diária 32,90)
         <br>✅Plano Anual - R$ 209,30 SEMANAL (diária 29,90)
         <br>✅Plano Fidelidade 24 MESES-R$293,30 SEMANAL (diária 41,90)
-        <br>CAUÇÃO R$500,00
+        <br>✳️CAUÇÃO R$500,00
         <br>✳️PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO`
     },
 ];

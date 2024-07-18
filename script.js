@@ -334,6 +334,130 @@ const franquias = [
         <br>✅ Caução =700,00
         <br>✅ PARA RETIRADA : CAUÇÃO + A PRIMEIRA SEMANA`
     },
+
+    {
+        codigo: 22,
+        modelo: "SHI 175",
+        gerenciavel: false,
+        cidade: "Piracicaba",
+        estado: "SP",
+        info: `
+        <br>✅Plano Mensal - R$ 286,30 SEMANAL (40,90 diária)
+        <br>✅Plano Anual - R$ 265,30 SEMANAL (37,90 diária)
+        <br>✅Plano Fidelidade- 24 meses R$ 370,30 SEMANAL (52,90 diária)
+        <br>✅Plano Fidelidade- 28 meses R$ 317,40 SEMANAL (45,40 diária)
+        <br>CAUÇÃO R$700,00
+        <br>✳️PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO`
+    },
+
+    {
+        codigo: 23,
+        modelo: "SUZUKI DK 150",
+        gerenciavel: false,
+        cidade: "Piracicaba",
+        estado: "SP",
+        info: `
+        <br>✅Plano Mensal - R$ 272,30 SEMANAL (38,90 diária)
+        <br>✅Plano Anual - R$ 251,30 SEMANAL (35,90 diária)
+        <br>✅Plano Fidelidade- 24 meses R$ 363,30 SEMANAL (51,90 diária)
+        <br>✅Plano Fidelidade- 28 meses R$ 311,40 SEMANAL (44,50 diária)
+        <br>CAUÇÃO R$700,00
+        <br>✳️PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO`
+    },
+
+    {
+        codigo: 24,
+        modelo: "CHOPPER 150",
+        gerenciavel: false,
+        cidade: "Piracicaba",
+        estado: "SP",
+        info: `
+        <br>✅Plano Mensal - R$ 251,30 SEMANAL (35,90 diária)
+        <br>✅Plano Anual - R$ 237,30 SEMANAL (33,90 diária)
+        <br>✅Plano Fidelidade- 24 meses R$ 342,30 SEMANAL (48,90 diária)
+        <br>✅Plano Fidelidade- 28 meses R$ 293,40 SEMANAL (41,90 diária)
+        <br>CAUÇÃO R$700,00
+        <br>✳️PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO`
+    },
+
+    {
+        codigo: 25,
+        modelo: "SUZUKI DK 150",
+        gerenciavel: false,
+        cidade: "Guarulhos",
+        estado: "SP",
+        info: `
+        <br>✅Plano Mensal - R$ 272,30 SEMANAL (38,90 diárias)
+        <br>✅Plano Anual - R$ 251,30 SEMANAL (35,90 diárias)
+        <br>✅Plano Fidelidade- 24 meses R$ 363,30 SEMANAL (51,90 diária)
+        <br>CAUÇÃO R$700,00
+        <br>✳️PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO`
+    },
+
+    {
+        codigo: 26,
+        modelo: "WORKER 125",
+        gerenciavel: false,
+        cidade: "Praia Grande (LUCIANO)",
+        estado: "SP",
+        info: `
+        <br>✅Plano Mensal - R$209,30 SEMANAL (diária 29,90)
+        <br>✅Plano Anual - R$ 181,30 SEMANAL (diária 25,90)
+        <br>✅Plano Fidelidade 24 MESES - R$230,30 SEMANAL  (diária 32,90)
+        <br>CAUÇÃO R$ 500,00
+        <BR>PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO`
+    },
+
+    {
+        codigo: 27,
+        modelo: "WORKER 125",
+        gerenciavel: false,
+        cidade: "Sertãozinho (ANTONIO ANGELO)",
+        estado: "SP",
+        info: `
+        <br>✅Plano Mensal - R$279,30 SEMANAL (diária 39,90)
+        <br>✅Plano Anual - R$ 244,30 SEMANAL(diária 34,90)
+        <br>✅Plano Fidelidade 24 MESES - R$314,30 SEMANAL (diária 44,90)`
+    },
+
+    {
+        codigo: 28,
+        modelo: "WORKER 150",
+        gerenciavel: false,
+        cidade: "Sertãozinho (ANTONIO ANGELO)",
+        estado: "SP",
+        info: `
+        <br>✅Plano Mensal - R$279,30 SEMANAL (diária 39,90)
+        <br>✅Plano Anual - R$ 314,30 SEMANAL(diária 44,90)
+        <br>✅Plano Fidelidade 24 MESES - R$349,30 SEMANAL (diária 49,90)`
+    },
+
+    {
+        codigo: 29,
+        modelo: "JEF 150cc",
+        gerenciavel: false,
+        cidade: "Araraquara (EDUARDO LEITE)",
+        estado: "SP",
+        info: `
+        <br>✅Plano Mensal - R$286,30 SEMANAL (diária 40,90)
+        <br>✅Plano Anual - R$ 265,30 SEMANAL(diária 37,90)
+        <br>✅Plano Fidelidade 24 MESES - R$321,30 SEMANAL (diária 45,90)
+        <br>CAUÇÃO R$500,00`
+    },
+
+    {
+        codigo: 30,
+        modelo: "SHI 175",
+        gerenciavel: false,
+        cidade: "Araraquara (EDUARDO LEITE)",
+        estado: "SP",
+        info: `
+        <br>✅Plano Mensal - R$300,30 SEMANAL (diária 42,90)
+      <br>✅Plano Anual - R$ 279,30 SEMANAL(diária 39,90)
+      <br>✅Plano Fidelidade 24 MESES - R$384,30 SEMANAL (diária 54,90)
+      <br>CAUÇÃO R$500,00
+      <br>PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO`
+    },
 ];
 
 // Ordenar as franquias por cidade

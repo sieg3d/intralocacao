@@ -213,6 +213,71 @@ const franquias = [
         <br>Quilometragem máxima mês 6000km.
         <br>✳️PAGAMENTOS SEMANAIS`
     },
+
+    {
+        codigo: 15,
+        modelo: "SUZUKI DK 150",
+        gerenciavel: false,
+        cidade: "Belo Horizonte (WANDER)",
+        estado: "MG",
+        info: `
+        <br>1️⃣ Plano Anual Smart
+        <br>Para aqueles que estão iniciando no ramo com ambição de alcançar novos horizontes, utilizando uma ferramenta segura e confiável.
+        <br>* 📆 Diária: R$35,90
+        <br>* 💰 Valor Semanal: R$251,30
+        <br>* 💳 Caução: R$700,00 à vista
+        <br>* Limite de 3500 Km por mês
+        <br>
+        <br>2️⃣ Plano Anual
+        <br>Pensado para quem irá trabalhar com a moto por mais tempo, pagando um valor mais em conta na diária do aluguel.
+        <br>* 📆 Diária: R$39,90
+        <br>* 💰 Valor Semanal: R$279,30
+        <br>* 💳 Caução: R$700,00 à vista
+        <br>* Limite de 5000 Km por mês
+        <br>
+        <br>3️⃣ Plano Fidelidade - 30 Meses
+        <br>Após 30 meses a moto é sua‼️
+        <br>Feito para quem almeja trabalhar e ao mesmo tempo conquistar o bem para si (mesmo com o nome sujo ou outras restrições), pois, ao final do contrato, A MOTO É SUA!
+        <br>* 📆 Diária: R$49,90
+        <br>* 💰 Valor Semanal: R$349,30
+        <br>* 💳 Caução: R$700,00 à vista
+        <br>* Limite de 6000 Km por mês
+        <br>
+        <br>⚠️ EM QUALQUER PLANO É COBRADO A TAXA DE R$0,39 POR KM EXCEDENTE!
+        <br>
+        <br>🔹 O pagamento é realizado semanalmente!`
+    },
+
+    {
+        codigo: 16,
+        modelo: "WORKER 125",
+        gerenciavel: false,
+        cidade: "sANTOS",
+        estado: "SP",
+        info: `
+        <br>✅Plano Mensal - R$251,30 SEMANAL (diária 35,90)
+        <br>✅Plano Anual - R$ 237,30 SEMANAL(diária 33,90)
+        <br>✅Plano Fidelidade 24 MESES-R$293,30 SEMANAL (diária 41,90)
+        <br>CAUÇÃO R$400,00
+        <br>PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO
+        <br>✳️Locação sem burocracias e com preço justo ⚖️`
+    },
+
+    {
+        codigo: 17,
+        modelo: "WORKER 125 (SEM MANUTENÇÃO INCLUSO)",
+        gerenciavel: false,
+        cidade: "sANTOS",
+        estado: "SP",
+        info: `
+        <br>✅Plano Mensal - R$199,00 SEMANAL (diária 28,42)
+        <br>✅Plano Anual - R$ 237,30 SEMANAL(diária 25,57)
+        <br>✅Plano Fidelidade 12 MESES-R$300,30 SEMANAL (diária 42,90)
+        <br>CAUÇÃO R$400,00
+        <br>PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO
+        <br>✳️Locação sem burocracias e com preço justo ⚖️
+        <br>PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO`
+    },
 ];
 
 // Ordenar as franquias por cidade
@@ -249,27 +314,16 @@ function normalizarString(str) {
 // Função para buscar franquias com base na entrada do usuário
 function buscarFranquias() {
     const query = normalizarString(entradaPesquisa.value);
-    const filtradas = franquiasFiltradas.filter(franquia => {
-        return normalizarString(franquia.cidade).includes(query);
-    });
+    const filtradas = franquiasFiltradas.filter(franquia => normalizarString(franquia.cidade).includes(query));
     preencherLista(filtradas);
 }
 
 // Função para aplicar filtros de estado e gerenciabilidade
 function aplicarFiltros() {
-    let resultado = franquias;
-
-    if (filtroEstado !== 'TODAS') {
-        resultado = resultado.filter(franquia => franquia.estado === filtroEstado);
-    }
-
-    if (filtroGerenciavel === 'gerenciavelSim') {
-        resultado = resultado.filter(franquia => franquia.gerenciavel);
-    } else if (filtroGerenciavel === 'gerenciavelNao') {
-        resultado = resultado.filter(franquia => !franquia.gerenciavel);
-    }
-
-    franquiasFiltradas = resultado;
+    franquiasFiltradas = franquias.filter(franquia => 
+        (filtroEstado === 'TODAS' || franquia.estado === filtroEstado) &&
+        (filtroGerenciavel === 'gerenciavelTodas' || (filtroGerenciavel === 'gerenciavelSim' ? franquia.gerenciavel : !franquia.gerenciavel))
+    );
     buscarFranquias();
 }
 
@@ -297,11 +351,7 @@ function limparFiltro() {
 // Função para destacar o botão selecionado
 function destacarBotao(botoes, idSelecionado) {
     botoes.forEach(botao => {
-        if (botao.id === idSelecionado) {
-            botao.classList.add('ativo');
-        } else {
-            botao.classList.remove('ativo');
-        }
+        botao.classList.toggle('ativo', botao.id === idSelecionado);
     });
 }
 

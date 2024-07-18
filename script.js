@@ -278,6 +278,62 @@ const franquias = [
         <br>✳️Locação sem burocracias e com preço justo ⚖️
         <br>PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO`
     },
+
+    {
+        codigo: 18,
+        modelo: "WORKER 125 / WORKER 150",
+        gerenciavel: false,
+        cidade: "Zona Oeste (RAFAEL E DANI)",
+        estado: "SP",
+        info: `
+        <br>✅Plano Mensal - R$258,30 SEMANAL (diária 36,90)
+        <br>✅Plano Anual - R$ 251,30 SEMANAL(diária 35,90)
+        <br>✅Plano Fidelidade 24 MESES-R$335,30 SEMANAL  (diária 47,90)
+        <br>✳️ Após os 24 meses a moto é sua.
+        <br>✅Caução = 700,00`
+    },
+
+    {
+        codigo: 19,
+        modelo: "SUZUKI DK 150",
+        gerenciavel: false,
+        cidade: "Jundiaí (LICIANE E GÉSIO)",
+        estado: "SP",
+        info: `
+        <br>✅Plano Mensal - R$ 300,30 SEMANAL (diária 42,90)
+        <br>✅Plano Anual - R$ 349,30  SEMANAL(diária 49,90)
+        <br>✅Plano Fidelidade- R$ 419,30 SEMANAL (59,90 diária)
+        <br>CAUÇÃO R$700,00
+        <br>✳️PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO`
+    },
+
+    {
+        codigo: 20,
+        modelo: "JEF 150cc",
+        gerenciavel: false,
+        cidade: "Sorocaba (LICIANE E GÉSIO)",
+        estado: "SP",
+        info: `
+        <br>✅ Mensal - R$ 279,30 Semanal (diária 39,90)
+        <br>✅ Anual - R$ 258,30 Semanal (diária 36,90)
+        <br>✅ Plano Fidelidade - R$ 377,30 Semanal (diária 53,90)
+        <br>✅ Caução =700,00
+        <br>✅ PARA RETIRADA : CAUÇÃO + A PRIMEIRA SEMANA`
+    },
+
+    {
+        codigo: 21,
+        modelo: "SUZUKI DK 150",
+        gerenciavel: false,
+        cidade: "Limeira (LICIANE E GÉSIO)",
+        estado: "SP",
+        info: `
+        <br>✅ Mensal - R$ 279,30 Semanal (diária 39,90)
+        <br>✅ Anual - R$ 258,30 Semanal (diária 36,90)
+        <br>✅ Plano Fidelidade - R$ 377,30 Semanal (diária 53,90)
+        <br>✅ Caução =700,00
+        <br>✅ PARA RETIRADA : CAUÇÃO + A PRIMEIRA SEMANA`
+    },
 ];
 
 // Ordenar as franquias por cidade

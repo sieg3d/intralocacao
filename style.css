@@ -23,6 +23,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    overflow: hidden; /* Esconde a barra de rolagem do corpo */
 }
 
 /* Barra de navegação */
@@ -42,11 +43,13 @@ body {
     display: flex;
     flex: 1;
     margin: 20px;
+    overflow: hidden; /* Garante que o container principal não exceda a tela */
 }
 
 /* Painel esquerdo para filtros e pesquisa */
 .painel-esquerdo {
     width: 300px;
+    overflow-y: auto; /* Adiciona barra de rolagem ao painel esquerdo, se necessário */
 }
 
 /* Container para botões de filtro */
@@ -116,6 +119,8 @@ body {
     border-radius: 5px;
     margin-left: 20px;
     box-shadow: 0 4px 8px var(--shadow-color);
+    overflow-y: auto; /* Adiciona barra de rolagem ao painel de informações */
+    max-height: calc(100vh - 60px); /* Define uma altura máxima para o painel de informações */
 }
 
 /* Estilo para títulos dentro do painel de informações */

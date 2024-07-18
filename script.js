@@ -252,7 +252,7 @@ const franquias = [
         codigo: 16,
         modelo: "WORKER 125",
         gerenciavel: false,
-        cidade: "sANTOS",
+        cidade: "SANTOS",
         estado: "SP",
         info: `
         <br>✅Plano Mensal - R$251,30 SEMANAL (diária 35,90)
@@ -267,7 +267,7 @@ const franquias = [
         codigo: 17,
         modelo: "WORKER 125 (SEM MANUTENÇÃO INCLUSO)",
         gerenciavel: false,
-        cidade: "sANTOS",
+        cidade: "SANTOS",
         estado: "SP",
         info: `
         <br>✅Plano Mensal - R$199,00 SEMANAL (diária 28,42)

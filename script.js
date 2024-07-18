@@ -604,6 +604,21 @@ const franquias = [
         <br>✅ Caução = R$700,00
         <br>PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO`
     },
+
+    {
+        codigo: 41,
+        modelo: "SHI 175",
+        gerenciavel: false,
+        cidade: "Belo Horizonte (BRAULIO)",
+        estado: "MG",
+        info: `
+        <br>✅Plano Mensal - R$314,30 Semanal (diária 44,90)
+        <br>✅Plano Anual - R$ 293,30 Semanal (41,90)
+        <br>✅Plano Fidelidade - (24 meses) R$ 405,30 Semanal (diária 57,90)
+        <br>
+        <br>✅ CAUÇÃO=700,00
+        <br>PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO`
+    },
 ];
 
 // Ordenar as franquias por cidade

@@ -252,7 +252,7 @@ const franquias = [
         codigo: 16,
         modelo: "WORKER 125",
         gerenciavel: false,
-        cidade: "SANTOS",
+        cidade: "Santos",
         estado: "SP",
         info: `
         <br>✅Plano Mensal - R$251,30 SEMANAL (diária 35,90)
@@ -267,7 +267,7 @@ const franquias = [
         codigo: 17,
         modelo: "WORKER 125 (SEM MANUTENÇÃO INCLUSO)",
         gerenciavel: false,
-        cidade: "SANTOS",
+        cidade: "Santos",
         estado: "SP",
         info: `
         <br>✅Plano Mensal - R$199,00 SEMANAL (diária 28,42)
@@ -453,10 +453,156 @@ const franquias = [
         estado: "SP",
         info: `
         <br>✅Plano Mensal - R$300,30 SEMANAL (diária 42,90)
-      <br>✅Plano Anual - R$ 279,30 SEMANAL(diária 39,90)
-      <br>✅Plano Fidelidade 24 MESES - R$384,30 SEMANAL (diária 54,90)
-      <br>CAUÇÃO R$500,00
-      <br>PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO`
+        <br>✅Plano Anual - R$ 279,30 SEMANAL(diária 39,90)
+        <br>✅Plano Fidelidade 24 MESES - R$384,30 SEMANAL (diária 54,90)
+        <br>CAUÇÃO R$500,00
+        <br>PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO`
+    },
+
+    {
+        codigo: 31,
+        modelo: "JEF 150cc",
+        gerenciavel: false,
+        cidade: "Suzano",
+        estado: "SP",
+        info: `
+        <br>✅Mensal - R$ 279,30 Semanal (diária 39,90)
+        <br>✅Anual - R$ 258,30 Semanal (diária 36,90)
+        <br>✅Plano Fidelidade - R$ 377,30 Semanal (diária 53,90)
+        <br>✅Caução=700,00
+        <br>✅PARA RETIRADA: CAUÇÃO + A PRIMEIRA SEMANA`
+    },
+
+    {
+        codigo: 32,
+        modelo: "SUZUKI DK 150",
+        gerenciavel: false,
+        cidade: "São José dos Campos (CARLA)",
+        estado: "SP",
+        info: `
+        <br>✅ Plano Mensal
+        <br>Com pagamento R$272,30 SEMANAL
+        <br>(diária 38,90)
+        <br>Para retirar a moto precisa para o caução de R$700,00 + o valor semanal
+        <br>
+        <br>✅ Plano Anual
+        <br>Com pagamento R$ 251,30 SEMANAL
+        <br>(diária 35,90)
+        <br>Para retirar a moto precisa para o caução de R$700,00 + o valor semanal
+        <br>
+        <br>✅ Plano Fidelidade 24 MESES
+        <br>Com pagamento R$363,30 SEMANAL
+        <br>ao final deste plano * a Moto é SUA * !!
+        <br>Para retirar a moto precisa para o caução de R$700,00 + o valor semanal
+        <br>(diária 51,90)`
+    },
+
+    {
+        codigo: 33,
+        modelo: "SUZUKI DK 150",
+        gerenciavel: false,
+        cidade: "Mauá (EDUARDO)",
+        estado: "SP",
+        info: `
+        <br>✅Plano Mensal - R$272,30 SEMANAL (diária 38,90)
+        <br>✅Plano Anual - R$ 251,30 SEMANAL(diária 35,90)
+        <br>✅Plano Fidelidade 24 MESES-R$363,30 SEMANAL (diária 51,90)
+        <br>CAUÇÃO R$700,00`
+    },
+
+    {
+        codigo: 34,
+        modelo: "SUZUKI DK 150",
+        gerenciavel: false,
+        cidade: "Santo André (RENATO)",
+        estado: "SP",
+        info: `
+        <br>✅Plano Mensal - R$272,30 SEMANAL (diária 38,90)
+        <br>✅Plano Anual - R$ 251,30 SEMANAL(diária 35,90)
+        <br>✅Plano Fidelidade 24 MESES-R$363,30 SEMANAL (diária 51,90)
+        <br>CAUÇÃO R$700,00`
+    },
+
+    {
+        codigo: 35,
+        modelo: "FACTOR / SUZUKI DK 160 / SHI 175",
+        gerenciavel: false,
+        cidade: "São Paulo (SEDE)",
+        estado: "SP",
+        info: `
+        <br>✔ Anual - R$ 300,30 por semana (diária 42,90)
+        <br>✔ Plano Fidelidade - R$ 412,30 por semana (diária 58,90)
+        <br>✔ Caução - R$800,00 FACTOR
+        <br>✔ Caução - R$500`
+    },
+
+    {
+        codigo: 36,
+        modelo: "CHOPPER 150",
+        gerenciavel: false,
+        cidade: "São Paulo (SEDE)",
+        estado: "SP",
+        info: `
+        <br>✅Mensal - R$ 300,30 por semana (diária 42,90)
+        <br>✅Anual - R$ 279,30 por semana (diária 39,90)
+        <br>✅Plano Fidelidade - R$ 398,30 por semana (diária 56,90)
+        <br>✅Caução=  700,00
+        <br>PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO`
+    },
+
+    {
+        codigo: 37,
+        modelo: "JEF 150 / SUZUKI DK 150",
+        gerenciavel: false,
+        cidade: "São Paulo (SEDE)",
+        estado: "SP",
+        info: `
+        <br>Anual - R$ 279,30 SEMANAL (diária 39,90)
+        <br>Plano Fidelidade - R$ 398,30 SEMANAL (diária 56,90)
+        <br>✅ Caução = R$500,00
+        <br>PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO`
+    },
+
+    {
+        codigo: 38,
+        modelo: "WORKER 125",
+        gerenciavel: false,
+        cidade: "São Paulo (SEDE)",
+        estado: "SP",
+        info: `
+        <br>✅Mensal - R$258,30 SEMANAL (diária 36,90)
+        <br>✅Anual - R$209,30 SEMANAL (diária 29,90)
+        <br>✅Plano Fidelidade 28 MESES- R$244,30 SEMANAL (diária 34,90)
+        <br>✅Caução=300,00
+        <br>PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO`
+    },
+
+    {
+        codigo: 39,
+        modelo: "SUZUKI DK 150 / JEF 150",
+        gerenciavel: false,
+        cidade: "São Paulo (EMMANUEL)",
+        estado: "SP",
+        info: `
+        <br>Mensal - R$300,30 SEMANAL (diária 42,90)
+        <br>Anual - R$ 279,30 SEMANAL (diária 39,90)
+        <br>Plano Fidelidade - R$ 398,30 SEMANAL (diária 56,90)
+        <br>✅ Caução = R$700,00
+        <br>PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO`
+    },
+
+    {
+        codigo: 40,
+        modelo: "SUZUKI DK 160 / FACTOR 150",
+        gerenciavel: false,
+        cidade: "São Paulo (EMMANUEL)",
+        estado: "SP",
+        info: `
+        <br>Mensal - R$321,30 SEMANAL (diária 45,90)
+        <br>Anual - R$ 300,30 SEMANAL (diária 42,90)
+        <br>Plano Fidelidade - R$ 412,30 SEMANAL (diária 58,90)
+        <br>✅ Caução = R$700,00
+        <br>PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO`
     },
 ];
 

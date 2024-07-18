@@ -311,7 +311,7 @@ const franquias = [
         codigo: 20,
         modelo: "JEF 150cc",
         gerenciavel: false,
-        cidade: "Sorocaba (LICIANE E GÉSIO)",
+        cidade: "Sorocaba",
         estado: "SP",
         info: `
         <br>✅ Mensal - R$ 279,30 Semanal (diária 39,90)
@@ -325,7 +325,7 @@ const franquias = [
         codigo: 21,
         modelo: "SUZUKI DK 150",
         gerenciavel: false,
-        cidade: "Limeira (LICIANE E GÉSIO)",
+        cidade: "Limeira",
         estado: "SP",
         info: `
         <br>✅ Mensal - R$ 279,30 Semanal (diária 39,90)

@@ -827,6 +827,333 @@ const franquias = [
         <br>✅Plano Fidelidade - R$ 377,30 Semanal (diária 53,90) – 24 Meses
         <br>✅Caução - R$ 700,00 Pix`
     },
+
+    {
+        codigo: 57,
+        modelo: "WORKER 125",
+        gerenciavel: false,
+        cidade: "São José / Florianópolis (DANIEL SEVERO)",
+        estado: "SC",
+        info: `
+        <br>✅Mensal - 251,30 Semanal (diária 35,90)
+        <br>✅Anual - R$ 237,30 Semanal (diária 33,90)
+        <br>✅Plano Fidelidade - R$ 293,30 Semanal (diária 41,90)
+        <br>✅Caução=500,00
+        <br>✳️PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO`
+    },
+
+    {
+        codigo: 58,
+        modelo: "WORKER 125 / 150",
+        gerenciavel: false,
+        cidade: "Itajaí (DANILO)",
+        estado: "SC",
+        info: `
+        <br><b>SOMENTE A 150 DISPONIVEL</b>
+        <br>✅Plano Mensal - R$251,30 SEMANAL (diária 35,90)
+        <br>✅Plano Anual - R$ 230,30 SEMANAL(diária 32,90)
+        <br>✅Plano Anual SEM MANUTENÇÃO - R$ 188,30 SEMANAL(diária 26,90) -  limite de 2.000 km/mês
+        <br>✅Plano Fidelidade 24 MESES - R$279,30 SEMANAL  (diária 39,90)`
+    },
+
+    {
+        codigo: 59,
+        modelo: "SUZUKI DK 150",
+        gerenciavel: false,
+        cidade: "Jaraguá do SUl (DANILO)",
+        estado: "SC",
+        info: `
+        <br>✅Plano Mensal - R$307,30 SEMANAL (diária 43,90)
+        <br>✅Plano Anual - R$ 279,30 SEMANAL(diária 39,90)
+        <br>✅Plano Fidelidade 24 MESES-R$384,30 SEMANAL (diária 54,90)
+        <br>CAUÇÃO R$700,00
+        <br>✳️Locação sem burocracias e com preço justo ⚖️
+        <br>Todos os veículos São do ano 2024/25 0 km
+        <br>✳️PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO`
+    },
+
+    {
+        codigo: 60,
+        modelo: "WORKER 125",
+        gerenciavel: false,
+        cidade: "Curitiba (PAULO)",
+        estado: "PR",
+        info: `
+        <br>✅Plano Mensal - R$ 230,30 SEMANAL (diária 32,90)
+        <br>✅Plano Anual - R$ 181,30 SEMANAL(diária 25,90)
+        <br>✅Plano Fidelidade 24 MESES - R$ 293,30 SEMANAL  (diária 41,90)
+        <br>
+        <br>CAUÇÃO:  R$500,00
+        <br>
+        <br>PARA RETIRADA: CAUÇÃO + SEMANA DO PLANO`
+    },
+
+    {
+        codigo: 61,
+        modelo: "SUZUKI DK",
+        gerenciavel: false,
+        cidade: "Londrina (JOÃO RICARDO)",
+        estado: "PR",
+        info: `
+        <br>✅Plano Mensal - R$272,30 SEMANAL (diária 38,90)
+        <br>✅Plano Anual - R$ 251,30 SEMANAL(diária 35,90)
+        <br>✅Plano Fidelidade 30 MESES - R$349,30 SEMANAL  (diária 49,90)
+        <br>
+        <br>CAUÇÃO R$700,00.`
+    },
+
+    {
+        codigo: 62,
+        modelo: "WORKER 125",
+        gerenciavel: false,
+        cidade: "Passo Fundo",
+        estado: "RS",
+        info: `
+        <br>✅Mensal - R$258,30 valor semanal (diária 36,90)
+        <br>✅Anual - R$230,30 valor semanal (diária 32,90)
+        <br>✅Plano Fidelidade - R$328,30 valor semanal (diária 46,90)
+        <br>✅CAUÇÃO -R$600,00
+        <br>PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO QUE VOCÊ ESCOLHER`
+    },
+
+    {
+        codigo: 63,
+        modelo: "SHI 175",
+        gerenciavel: false,
+        cidade: "Passo Fundo",
+        estado: "RS",
+        info: `
+        <br>✅ Mensal- R$ 328,30 valor semanal (diária 46,90)
+        <br>✅Anual-R$314,30 valor semanal (diária 44,90 )
+        <br>✅Plano Fidelidade -28 meses R$419,30 valor semanal (diária 59,90)
+        <br>✅CAUÇÃO -R$600,00
+        <br>PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO QUE VOCÊ ESCOLHER`
+    },
+
+    {
+        codigo: 64,
+        modelo: "WORKER 125",
+        gerenciavel: false,
+        cidade: "Belém (BRENO NAVARRO)",
+        estado: "PA",
+        info: `
+        <br>✅Mensal - R$ 258,30 Semanal (diária 36,90)
+        <br>✅Anual - R$ 244,30 Semanal (diária 34,90)
+        <br>✅Plano Fidelidade - (24 meses) R$ 300,30 Semanal (diária 42,90)
+        <br>✅ CAUÇÃO=600,00
+        <br>
+        <br>✳️PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO`
+    },
+
+    {
+        codigo: 65,
+        modelo: "WORKER 125",
+        gerenciavel: false,
+        cidade: "Natal",
+        estado: "RN",
+        info: `
+        <br>✅Mensal - R$ 230,30 Semanal (diária 32,90)
+        <br>✅Anual - R$ 209,30 Semanal (diária 29,90)
+        <br>✅Plano Fidelidade - (24 meses) R$ 265,30 Semanal (diária 37,90)
+        <br>✅ CAUÇÃO=500,00
+        <br>FORMA DE PAGAMENTO: PIX E DINHEIRO (CARTÃO CRÉDITO COM ACRESCIMO)
+        <br>✳️PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO`
+    },
+
+    {
+        codigo: 66,
+        modelo: "SUZUKI DK 150",
+        gerenciavel: false,
+        cidade: "Porto Velho",
+        estado: "RO",
+        info: `
+        <br>✅Plano Mensal - R$300,30 SEMANAL (diária 42,90)
+        <br>✅Plano Anual - R$ 279,90 SEMANAL(diária 39,90)
+        <br>✅Plano Fidelidade 28 MESES 398,30 -SEMANAL  (diária 56,90)
+        <br>✅CAUÇÃO R$700,00 POR R$:450,00`
+    },
+
+    {
+        codigo: 67,
+        modelo: "SUZUKI DK 150",
+        gerenciavel: false,
+        cidade: "Brasília (DANIEL)",
+        estado: "RO",
+        info: `
+        <br>✅ Mensal - R$ 300,30 Semanal (diária 42,90)
+        <br>✅ Anual - R$ 279,30 semanal (diária 39,90)
+        <br>✅ Plano Fidelidade - R$ 398,30 Semanal (diária 56,90)
+        <br>✅Caução = 700,00`
+    },
+
+    {
+        codigo: 68,
+        modelo: "JEF 150",
+        gerenciavel: false,
+        cidade: "Brasília (SAMUEL)",
+        estado: "RO",
+        info: `
+        <br>✅ Anual - R$ 258,30 semanal (diária 36,90)
+        <br>✅ Plano Fidelidade - R$ 377,30 Semanal (diária 53,90)
+        <br>
+        <br>✅Caução 700,00`
+    },
+
+    {
+        codigo: 69,
+        modelo: "JEF 150",
+        gerenciavel: false,
+        cidade: "Luziania",
+        estado: "GO",
+        info: `
+        <br>✅Plano ANUAL- R$258,30 SEMANAL (diária 36,90)
+        <br>✅Plano Fidelidade (28 meses)- R$350,00 SEMANAL (diária 50,00)
+        <br>✅Caução = 700,00
+        <br>✳️Locação sem burocracias e com preço justo ⚖️`
+    },
+
+    {
+        codigo: 70,
+        modelo: "CG START 160",
+        gerenciavel: false,
+        cidade: "Luziania",
+        estado: "GO",
+        info: `
+        <br>✅Plano Fidelidade (28 meses)- R$385,00 SEMANAL (diária 55,00)
+        <br>✅Caução = 700,00
+        <br>✳️Locação sem burocracias e com preço justo ⚖️
+        <br>Todos os veículos São do ano 2023/24 É 0 km`
+    },
+
+    {
+        codigo: 71,
+        modelo: "JEF 150",
+        gerenciavel: false,
+        cidade: "Lucas do Rio Verde",
+        estado: "MT",
+        info: `
+        <br>✅Mensal - R$ 1.197,00 (diária 39,90)
+        <br>✅Anual - R$ 1.107,00 (diária 36,90)
+        <br>✅Plano Fidelidade - R$ 1.557,00(diária 51,90)
+        <br>✅Caução=700,00`
+    },
+
+    {
+        codigo: 72,
+        modelo: "SUZUKI DK 150",
+        gerenciavel: false,
+        cidade: "Rondonópolis",
+        estado: "MT",
+        info: `
+        <br>✅Plano Mensal – R$300,30 SEMANAL (diária 42,90)
+        <br>✅Plano Anual - R$ 279,30 SEMANAL (diária 39,90)
+        <br>✅Plano Fidelidade 24 MESES - R$ 363,30 SEMANAL (diária 51,90)
+        <br>✅CAUÇÃO R$500,00
+        <br>✳️Locação sem burocracias e com preço justo ⚖️
+        <br>Todos os veículos São do ano 2024/25 0 km`
+    },
+
+    {
+        codigo: 73,
+        modelo: "JEF 150",
+        gerenciavel: false,
+        cidade: "Campo Grande",
+        estado: "MS",
+        info: `
+        <br>✅ Mensal - R$ 42.71
+        <br>Pagamento Retirada
+        <br>7 diárias R$ 299,00
+        <br>Caução R$ 450,00
+        <br>Total R$ 750,30
+        <br>
+        <br>✅Anual - Diária R$ 36,43
+        <br>Pagamento Retirada
+        <br>7 diárias R$ 255,00
+        <br>Caução R$ 450,00
+        <br>Total R$ 708,30
+        <br>
+        <br>✅ Fidelidade 36 meses - Diária R$ 48,43
+        <br>Pagamento Retirada
+        <br>7 diárias R$ 342,30
+        <br>Caução R$ 450,00
+        <br>Total R$ 792,30
+        <br>
+        <br>✅ Fidelidade 24 meses - Diária R$ 57,00
+        <br>Pagamento Retirada
+        <br>7 diárias R$ 399,00
+        <br>Caução R$ 450,00
+        <br>Total R$ 849,00`
+    },
+
+    {
+        codigo: 74,
+        modelo: "SUZUKI DK 150",
+        gerenciavel: false,
+        cidade: "Campo Grande",
+        estado: "MS",
+        info: `
+        <br>✅ Mensal - R$ 349,00(semanal)
+        <br>Pagamento Retirada
+        <br>7 diárias R$ 349
+        <br>Caução R$ 450,00
+        <br>Total R$ 799,00
+        <br>
+        <br>✅Anual - R$ 299,00 (semanal)
+        <br>Pagamento Retirada
+        <br>7 diárias R$ 299,00
+        <br>Caução R$ 450,00
+        <br>Total R$ 749,00
+        <br>
+        <br>✅ Fidelidade 36 meses - R$ 399,00 (semanal)
+        <br>JÁ INCLUSO A MOTO ZERO KM
+        <br>Pagamento Retirada
+        <br>7 diárias R$ 399,00
+        <br>Caução R$ 450,00
+        <br>Total R$ 849,00
+        <br>
+        <br>✅ Fidelidade 24 meses - R$ 449,00 (semanal)
+        <br>Duração 24 meses
+        <br>7 diárias
+        <br>Semana 449,00
+        <br>Caução 450
+        <br>Total 899,00`
+    },
+
+    {
+        codigo: 75,
+        modelo: "HONDA CG START 160",
+        gerenciavel: false,
+        cidade: "Campo Grande",
+        estado: "MS",
+        info: `
+        <br>✅ Mensal -  R$ 349,00(semanal)
+        <br>Pagamento Retirada
+        <br>7 diárias R$  349
+        <br>Caução R$  450,00
+        <br>Total R$ 799,00
+        <br>
+        <br>✅Anual - R$ 299,00 (semanal)
+        <br>Pagamento Retirada
+        <br>7 diárias R$  299,00
+        <br>Caução R$  450,00
+        <br>Total R$  749,00
+        <br>
+        <br>✅ Fidelidade - R$ 399,00 (semanal)
+        <br>JÁ INCLUSO A MOTO ZERO KM
+
+        <br>Pagamento Retirada
+        <br>Duração 36 meses
+        <br>7 diárias R$  399
+        <br>Caução R$  450,00
+        <br>Total R$  849,00
+        <br>
+        <br>Pagamento Retirada
+        <br>Duração 24 meses
+        <br>7 diárias
+        <br>Semana 449,00
+        <br>Caução 450
+        <br>Total 899,00`
+    },
 ];
 
 // Ordenar as franquias por cidade

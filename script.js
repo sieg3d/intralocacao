@@ -814,6 +814,19 @@ const franquias = [
         <br>
         <br>⚠️⚠️⚠️ Preços válidos para os meses de JUNHO e JULHO`
     },
+
+    {
+        codigo: 56,
+        modelo: "JEF 150",
+        gerenciavel: false,
+        cidade: "São Caetano do Sul (FELIPE AGUILLAR AMARAL)",
+        estado: "SP",
+        info: `
+        <br>✅Mensal - R$ 279,30 Semanal (diária 39,90)
+        <br>✅Anual - R$ 258,30 Semanal (diária 36,90)
+        <br>✅Plano Fidelidade - R$ 377,30 Semanal (diária 53,90) – 24 Meses
+        <br>✅Caução - R$ 700,00 Pix`
+    },
 ];
 
 // Ordenar as franquias por cidade

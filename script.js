@@ -619,6 +619,201 @@ const franquias = [
         <br>✅ CAUÇÃO=700,00
         <br>PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO`
     },
+
+    {
+        codigo: 42,
+        modelo: "JEF 150",
+        gerenciavel: false,
+        cidade: "Maceió (JOSE FLAVIO)",
+        estado: "AL",
+        info: `
+        <br>Temos 2 opções de planos com manutenção preventiva e proteção com rastreador inclusa e 6000 kms livres por mês
+        <br>
+        <br>✅trimestral - R$ 265,30 Semanal (diária 37,90)
+        <br>✅mensal - R$ 279,30 Semanal (diária 39,90)
+        <br>✅fidelidade- R$ 377,30 semanal
+        <br>(diária 53,90)
+        <br>✅ CAUÇÃO=700,00
+        <br>✳️Locação sem burocracias e com preço justo ⚖️
+        <br>Todas as motos são novas ano modelo 2023/2024
+        <br>✅ Não consultamos Serasa ou SPC.
+        <br>✳️PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO`
+    },
+
+    {
+        codigo: 43,
+        modelo: "FACTOR 150",
+        gerenciavel: false,
+        cidade: "Maceió",
+        estado: "AL",
+        info: `
+        <br>✅ Mensal - R$314,30 SEMANAL (diária 44,90)
+        <br>✅ Anual - R$ 258,30 SEMANAL (diária 39,90)
+        <br>✅ Fidelidade- R$ 391,30 SEMANAL (diária 55,90)
+        <br>✅Caução=700,00
+        <br>✳️Locação sem burocracias e com preço justo ⚖️
+        <br>✳️PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO`
+    },
+
+    {
+        codigo: 44,
+        modelo: "WORKER 125",
+        gerenciavel: false,
+        cidade: "Juazeiro do Norte",
+        estado: "CE",
+        info: `
+        <br>✅PLANO 7 dias R$230,30 (diária R$ 32,90)
+        <br>✅Plano Quinzenal R$523,50 (diária R$ 34,90)
+        <br>✅PLano Mensal - R$ 195,30 Semanal (diária 27,90)
+        <br>✅PLano Anual - R$ 153,30 Semanal (diária 21,90)
+        <br>✅Plano Fidelidade - (24 meses) R$ 209,30 Semanal (diária 29,90)
+        <br>✅ CAUÇÃO= 400 diluindo o caução nas 2 primeiras semanas .
+        <br>✳️PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO`
+    },
+
+    {
+        codigo: 45,
+        modelo: "",
+        gerenciavel: false,
+        cidade: "Ilheus (RAPHAEL)",
+        estado: "BA",
+        info: `
+        <br>✅Mensal - R$ 314,30 por semana (diária 44,90)
+        <br>✅Anual - R$ 293,30 por semana (diária 41,90)
+        <br>✅Plano Fidelidade - R$ 398,30 por semana (diária 56,90)
+        <br>
+        <br>CAUÇÃO:  R$ 700,00
+        <br>PARA RETIRADA: CAUÇÃO + SEMANA DO PLANO*`
+    },
+
+    {
+        codigo: 46,
+        modelo: "WORKER 125",
+        gerenciavel: false,
+        cidade: "Alagoinhas",
+        estado: "BA",
+        info: `
+        <br>✅Plano Mensal - R$209,30 Semanal (diária 29,90)
+        <br>✅Plano Anual - R$ 195,30 Semanal (diária 27,90)
+        <br>✅Plano Fidelidade 24 MESES - R$265,30 Semanal (diária 37,90)
+        <br>✅Caução= R$ 400,00
+        <br>✳️PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO
+        <br>✳️Locação sem burocracias e com preço justo ⚖️`
+    },
+
+    {
+        codigo: 47,
+        modelo: "WORKER 125",
+        gerenciavel: false,
+        cidade: "Feira de Santana",
+        estado: "BA",
+        info: `
+        <br>✅Mensal - R$ 230,30 Semanal (diária 32,90)
+        <br>✅Anual - R$ 209,30 Semanal (diária 29,90)
+        <br>✅Plano Fidelidade - (24 meses) R$ 265,30 Semanal (diária 37,90)
+        <br>✅ CAUÇÃO=500,00
+        <br>FORMA DE PAGAMENTO: PIX E DINHEIRO (CARTÃO CRÉDITO COM ACRESCIMO)
+        <br>✳️PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO`
+    },
+
+    {
+        codigo: 49,
+        modelo: "JEF 150",
+        gerenciavel: false,
+        cidade: "Aracaju (ASLAN E GERSON)",
+        estado: "SE",
+        info: `
+        <br>✅Plano Fidelidade - R$377,30 SEMANAL (diária 53,90)
+        <br>✅Caução=R$600,00
+        <br>✳️PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO
+        <br>
+        <br>*Toda manutenção , troca de óleo, IPVA , seguro é por nossa conta. (Exceto a troca de pneus).`
+    },
+
+    {
+        codigo: 50,
+        modelo: "SHI 175",
+        gerenciavel: false,
+        cidade: "João Pessoa (JAIRO)",
+        estado: "PB",
+        info: `
+        <br>✅Plano Fidelidade - R$: 398,30 Semanal (diária 56,90)
+        <br>✅Caução de R$ 700,00
+        <br>✳️PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO`
+    },
+
+    {
+        codigo: 51,
+        modelo: "JEF 150",
+        gerenciavel: false,
+        cidade: "João Pessoa (JAIRO)",
+        estado: "PB",
+        info: `
+        <br>✅Plano Fidelidade - R$: 370,30 Semanal (diária 52,90)
+        <br>✅Caução de R$ 700,00
+        <br>✳️PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO`
+    },
+
+    {
+        codigo: 52,
+        modelo: "JEF 150",
+        gerenciavel: false,
+        cidade: "João Pessoa (JAIRO)",
+        estado: "PB",
+        info: `
+        <br>✅Plano Fidelidade - R$: 370,30 Semanal (diária 52,90)
+        <br>✅Caução de R$ 700,00
+        <br>✳️PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO`
+    },
+
+    {
+        codigo: 53,
+        modelo: "Suzuki DK 160",
+        gerenciavel: false,
+        cidade: "Recife (MADSON)",
+        estado: "PE",
+        info: `
+        <br>✅Plano Mensal - R$272,30SEMANAL (diária 38,90)
+        <br>✅Plano Anual - R$ 251,30 SEMANAL(diária 35,90)
+        <br>✅Plano Fidelidade 24 MESES R$363,30 -SEMANAL  (diária 51,90)
+        <br>CAUÇÃO R$600,00
+        <br>PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO
+        <br>✳️Locação sem burocracias e com preço justo ⚖️`
+    },
+
+    {
+        codigo: 54,
+        modelo: "FACTOR 150",
+        gerenciavel: false,
+        cidade: "Recife (ALISON)",
+        estado: "PE",
+        info: `
+        <br>✅Mensal - R$ 279,30 Semanal (diária 39,90) **
+        <br>✅Anual - R$ 258,30 (diária 36,90) **
+        <br>✅Plano Fidelidade - R$ 384,30 (diária 54,90) **
+        <br>✅Caução = 600,00`
+    },
+
+    {
+        codigo: 55,
+        modelo: "JEF 150 / SUZUKI DK 150",
+        gerenciavel: false,
+        cidade: "Teresina",
+        estado: "PI",
+        info: `
+        <br>💲 Taí os preços de nossas locações da JEF 150 e DK 150, com valor da diária em:
+        <br>
+        <br>👉🏻Para o Plano Anual, a semana será R$ 272,30
+        <br>👉🏻Para o Plano Fidelidade, a semana será R$ 363,30 (a moto é sua no final de 28 meses)
+        <br>
+        <br>CAUÇÃO R$750,00 (Pode ser divido em 3x de 250,00 nas semanas primeiras 3 semanas)
+        <br>
+        <br>PARA RETIRADA = CAUÇÃO + SEMANA DO PLANO
+        <br>
+        <br>O que está incluso? IPVA, trocas de óleo, seguro, rastreamento, bloqueio e todas as manutenções preventivas (revisões).
+        <br>
+        <br>⚠️⚠️⚠️ Preços válidos para os meses de JUNHO e JULHO`
+    },
 ];
 
 // Ordenar as franquias por cidade
